@@ -42,3 +42,5 @@ const obtenerYMostrarPosts = async () => {
   // Agregar un evento de clic al botón para llamar a la función obtenerYMostrarPosts al hacer clic.
   const btnTraerPosts = document.querySelector('button');
   btnTraerPosts.addEventListener('click', obtenerYMostrarPosts);
+
+  //
