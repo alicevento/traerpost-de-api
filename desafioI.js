@@ -14,7 +14,7 @@ const obtenerPosts = async () => {
     }
   };
   
-//Mostrar el resultado del request en HTML (utilizar listas desordenadas para mostrar cada uno de los post).
+//Mostrar el resultado del request en HTML.
 
 function mostrarPosts(posts) {
     const lista = document.getElementById('post-data');
